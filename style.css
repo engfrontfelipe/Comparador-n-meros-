@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
+
+body{
+    background-color: rgb(84, 84, 158);
+
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(54, 61, 167);
+    color: aliceblue;
+    padding: 16px; 
+    font-family: "Madimi One", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+#form_section .container form input{
+    margin-top: 8px;
+    display: block;
+    width: 350px;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+#form_section .container form button{
+    margin-top: 8px;
+    width: 375px;
+    padding: 16px;
+    background-color: rgb(142, 142, 194);
+    border: none;
+    font-size: 20px;
+    font-family: "Madimi One", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#form_section .container form button:hover{
+    background-color: rgb(67, 67, 167) ;
+}
+
+
+#form_section .container{
+    justify-content: center;
+    background-color: aliceblue;
+    align-items: center;
+    width: 500px;
+    margin: 100px auto 40px auto ;
+    height: 250px;
+
+}
+#result {
+    justify-content: center;
+    background-color: aliceblue;
+    align-items: center;
+    width: 350px;
+    margin:  auto ;
+    height: 20px;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+}
